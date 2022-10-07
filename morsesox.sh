@@ -84,9 +84,9 @@ echo_morse_sox_effects_file() {
   local i element
   local -u char
 
-  # PARIS: 1331 2 13 2 131 2 11 2 111 3 = 33
-  dit="$(printf '0.%3.3u' $((60000/(wpm*33))))"
-  dah="$(printf '0.%3.3u' $((180000/(wpm*33))))"
+  # PARIS: 2+4+4+2+ 1+ 2+4+ 1+ 2+4+2+ 1+ 2+2+ 1+ 2+2+2+ 2 = 42
+  dit="$(printf '0.%3.3u' $((60000/(wpm*42))))"
+  dah="$(printf '0.%3.3u' $((180000/(wpm*42))))"
 
   for (( i = 0; i < ${#string}; i++ )); do
     char="${string:$i:1}"
