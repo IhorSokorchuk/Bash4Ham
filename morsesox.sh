@@ -1,6 +1,7 @@
 #! /bin/bash
 
-# This is an program for create morse sound file
+# This is a script to create sound files 
+# with Morse signals from text strings
 # Copyright (C) 2022 Ihor Sokorchuk ur3lcm@gmail.com
 #
 # This program is free software: you can redistribute it and/or modify
